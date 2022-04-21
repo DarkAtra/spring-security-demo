@@ -23,14 +23,14 @@ class HelloControllerTest {
     void shouldBeAuthorized() throws Exception {
 
         mockMvc.perform(get("/hello"))
-                .andExpect(status().is(HttpStatus.OK.value()));
+            .andExpect(status().is(HttpStatus.OK.value()));
     }
 
     @Test
     void shouldNotBeAuthorizedDueToMissingAuthentication() throws Exception {
 
         mockMvc.perform(get("/hello"))
-                .andExpect(status().is(HttpStatus.UNAUTHORIZED.value()));
+            .andExpect(status().is(HttpStatus.UNAUTHORIZED.value()));
     }
 
     @Test
@@ -38,6 +38,6 @@ class HelloControllerTest {
     void shouldNotBeAuthorizedDueToMissingScopes() throws Exception {
 
         mockMvc.perform(get("/hello"))
-                .andExpect(status().is(HttpStatus.FORBIDDEN.value()));
+            .andExpect(status().is(HttpStatus.FORBIDDEN.value()));
     }
 }
