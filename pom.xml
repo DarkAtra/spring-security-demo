@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.5</version>
+        <version>3.0.3</version>
         <relativePath/>
     </parent>
 
@@ -15,7 +15,6 @@
     <version>1.0.0</version>
 
     <name>spring-security-demo</name>
-    <description>Demo project for Spring Security 5.1 OAuth2</description>
 
     <dependencies>
         <!-- Spring -->
