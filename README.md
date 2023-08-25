@@ -1,1 +1,1 @@
-https://docs.spring.io/spring-security/site/docs/current/reference/html5/#oauth2resourceserver
+https://docs.spring.io/spring-security/reference/

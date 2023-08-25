@@ -28,6 +28,4 @@ build/
 .vscode/
 
 ### Maven Wrapper ###
-.mvn
-mvnw
-mvnw.cmd
+.mvn/wrapper/maven-wrapper.jar
